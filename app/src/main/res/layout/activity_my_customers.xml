@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/relativeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal" >
+
+        <com.vkc.strabo.manager.CustomTextView
+            android:id="@+id/textName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".55"
+            android:background="@color/header"
+            android:text="Customer Name"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginRight="2dp"/>
+
+        <com.vkc.strabo.manager.CustomTextView
+            android:id="@+id/textPhone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:gravity="center"
+            android:text="Phone"
+            android:textColor="#fff"
+            android:layout_marginRight="2dp"
+            android:background="@color/header"/>
+
+        <com.vkc.strabo.manager.CustomTextView
+            android:id="@+id/textRole"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".20"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="Role"
+            android:background="@color/header"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listMyCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:cacheColorHint="#00000000"
+        android:fadingEdge="none"
+        android:scrollbars="none" />
+
+</LinearLayout>

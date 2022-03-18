@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+  <com.vkc.strabo.manager.CustomTextViewBlack
+            android:id="@+id/txtViewGift"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".35"
+            android:gravity="center"
+            android:text="Gift"
+            android:textSize="12sp"
+          
+            android:visibility="visible" />
+
+        <com.vkc.strabo.manager.CustomTextViewBlack
+            android:id="@+id/txtViewGiftQty"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".15"
+            android:gravity="center"
+            android:text="Gift Qty."
+            android:textSize="12sp"
+           
+            android:visibility="visible" />
+
+        <com.vkc.strabo.manager.CustomTextViewBlack
+            android:id="@+id/txtViewRedeemPoints"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".20"
+            android:gravity="center"
+           
+            android:textSize="12sp"
+         
+            android:visibility="visible" />
+
+        <com.vkc.strabo.manager.CustomTextViewBlack
+            android:id="@+id/txtViewTotalCoupons"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".20"
+            android:gravity="center"
+          
+            android:textSize="12sp"
+            
+            android:visibility="visible" />
+</LinearLayout>

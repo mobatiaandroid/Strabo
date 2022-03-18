@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="devlight">
+        <item>#FF0000</item>
+        <item>#ffffff</item>
+
+
+    </string-array>
+
+    <string-array name="bg">
+        <item>#D48496C4</item>
+        <item>#B5E4B76B</item>
+    </string-array>
+
+
+</resources>

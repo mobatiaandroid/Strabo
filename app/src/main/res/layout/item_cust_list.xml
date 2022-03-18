@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal" >
+
+    <com.vkc.strabo.manager.CustomTextView
+        android:id="@+id/textName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="2dp"
+        android:layout_weight=".55"
+        android:gravity="center"
+        android:text="Customer Name"
+        android:textSize="12sp" />
+
+    <com.vkc.strabo.manager.CustomTextView
+        android:id="@+id/textPhone"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="2dp"
+        android:layout_weight=".25"
+        android:gravity="center"
+        android:text="Phone"
+        android:textSize="12sp" />
+
+    <com.vkc.strabo.manager.CustomTextView
+        android:id="@+id/textRole"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".20"
+        android:gravity="center"
+        android:text="Role"
+        android:textSize="12sp" />
+
+</LinearLayout>

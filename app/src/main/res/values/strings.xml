@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Strabo</string>
+    <string name="no_internet">Please check your internet connectivity.</string>
+    <string name="common_error">Cannot continue at this time. Please try again later.</string>
+    <string name="point_history">Coupon History</string>
+    <string name="inbox">Inbox</string>
+    <string name="dealers">Select Dealers</string>
+    <string name="profile">My Profile</string>
+    <string name="issue_point">Issue Coupon</string>
+    <string name="shop_image">Upload Shop Image</string>
+    <string name="select_item">Select</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="open_gallery">Open Gallery</string>
+    <string name="gift_redeem_list">Redeemed Gift List</string>
+    <string name="my_customers">My Customers</string>
+    <string name="redeem_report">Redeem Report</string>
+    <string name="redeem_report_detail">Redeem Report Detail</string>
+</resources>
